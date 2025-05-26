@@ -999,7 +999,7 @@ ul li.first-list{
     font-size: 16px;
 }
 .home-text h1{
-    font-size: 55px;
+    font-size: 52px;
     width: 329px;
     height: 250px;
 /*     margin-bottom:20px; */
@@ -1015,7 +1015,7 @@ ul li.first-list{
 }
 .home-metaInc{
    position: absolute;
-   top:320px;
+   top:310px;
    margin-left: 20px;
    margin-top: 945px;
 }
@@ -1446,8 +1446,8 @@ hr{
 .first-list img{
     position: absolute;
     padding: 0px;
-    top:10px;
-    left: 18%;
+    top:-5px;
+    left: 19%;
     margin-left: -30px;
 }
                  /* Map CSS */
@@ -1476,7 +1476,7 @@ hr{
     margin-left: 20px;
     margin-right: 20px;
     padding:8px;
-    width:300px;
+    width:290px;
 }
 .map-box{
     display: flex;
