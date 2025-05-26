@@ -943,7 +943,7 @@ ul li.first-list{
 
 .main{
     flex-direction: column;
-    height: 160vh;
+    height: 170vh;
     margin: 0px;
     overflow: hidden;
     padding: 0px;
@@ -999,14 +999,14 @@ ul li.first-list{
     font-size: 16px;
 }
 .home-text h1{
-    font-size: 56px;
+    font-size: 50px;
     width: 329px;
     height: 256px;
-    margin:20px 0px;
+    margin-bottom:50px;
 }
 .home-text p{
     font-size: 16px;
-     margin-top: 200px;
+     margin-top: 210px;
 }
 .home-text button{
     margin-top: 25px;
@@ -1446,6 +1446,7 @@ hr{
 .first-list img{
     position: absolute;
     padding: 0px;
+    top:10px;
     left: 18%;
     margin-left: -30px;
 }
