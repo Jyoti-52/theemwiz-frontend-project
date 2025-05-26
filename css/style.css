@@ -1002,11 +1002,11 @@ ul li.first-list{
     font-size: 50px;
     width: 329px;
     height: 250px;
-    margin-bottom:20px;
+/*     margin-bottom:20px; */
 }
 .home-text p{
     font-size: 16px;
-     margin-top: 100px;
+     margin-top: 80px;
 }
 .home-text button{
     margin-top: 25px;
@@ -1016,6 +1016,7 @@ ul li.first-list{
 }
 .home-metaInc{
    position: absolute;
+    top:100px;
    margin-left: 20px;
    margin-top: 945px;
 }
@@ -1446,7 +1447,7 @@ hr{
 .first-list img{
     position: absolute;
     padding: 0px;
-    top:-20px;
+    top:80px;
     left: 18%;
     margin-left: -30px;
 }
@@ -1476,7 +1477,7 @@ hr{
     margin-left: 20px;
     margin-right: 20px;
     padding:8px;
-    width:270px;
+    width:170px;
 }
 .map-box{
     display: flex;
