@@ -1005,7 +1005,7 @@ ul li.first-list{
 }
 .home-text p{
     font-size: 16px;
-    margin-top: 16px;
+     padding: 25px 0px;
 }
 .home-text button{
     margin-top: 25px;
@@ -1445,7 +1445,7 @@ hr{
 .first-list img{
     position: absolute;
     padding: 0px;
-    left: 20%;
+    left: 18%;
     margin-left: -30px;
 }
                  /* Map CSS */
