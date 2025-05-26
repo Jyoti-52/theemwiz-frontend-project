@@ -999,10 +999,10 @@ ul li.first-list{
     font-size: 16px;
 }
 .home-text h1{
-    font-size: 52px;
+    font-size: 50px;
     width: 329px;
     height: 250px;
-/*     margin-bottom:20px; */
+    margin-bottom:10px;
 }
 .home-text p{
     font-size: 16px;
@@ -1446,8 +1446,8 @@ hr{
 .first-list img{
     position: absolute;
     padding: 0px;
-    top:-5px;
-    left: 19%;
+    top:0px;
+    left: 20%;
     margin-left: -30px;
 }
                  /* Map CSS */
@@ -1476,7 +1476,7 @@ hr{
     margin-left: 20px;
     margin-right: 20px;
     padding:8px;
-    width:290px;
+    width:280px;
 }
 .map-box{
     display: flex;
