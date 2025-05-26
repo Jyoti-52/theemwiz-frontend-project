@@ -1006,7 +1006,7 @@ ul li.first-list{
 }
 .home-text p{
     font-size: 16px;
-     padding-top: 30px;
+     margin-top: 50px;
 }
 .home-text button{
     margin-top: 25px;
@@ -1422,7 +1422,7 @@ hr{
 .faq-box li .img{
     position: absolute;
     padding: 0px;
-    right: 10%;
+    right: 15%;
 }
 .faq-box .first-list{
     width: 285px;
