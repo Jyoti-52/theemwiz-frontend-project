@@ -1,0 +1,1558 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+                /* Header CSS Start */
+.main{
+    flex-direction: column;
+    height: 105vh;
+    background-color: #3A3C56; 
+}
+.Logo{
+    width: 300px;
+    padding-top:16px;
+    padding-left:135px;
+    margin: 0px;
+
+}
+.menu-img{
+    display: none;
+}
+.menu{
+    display:flex;
+    width: 400px;
+    height: 70px;
+   
+}
+.navbar ul{
+    float: left;
+    display: flex;
+    margin-left:100px;   
+    
+}
+.navbar ul li{
+    list-style: none;
+    margin-left: 65px;
+    margin-top: 27px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.navbar ul li a:hover{
+    color: #ff7200;
+}
+.btn{
+    margin-top: 20px;
+    margin-left: 300px;
+    color: #FFFFFF;
+    background-color: #3A3C56;
+    border: 2px solid #FFFFFF;
+    padding:10px;
+    height: 50px;
+    width: 125px;
+}
+.btn:hover{
+    background-color: #EF6D58;
+    color: #FFFFFF;
+    font-style: bold;
+    font-size: 15px;
+}
+
+                 /* Home CSS  Start*/
+.home{
+    margin-top: 75px;
+}
+.home-text{
+    float: left;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 120px;
+    margin-right: 0px;
+}
+.home-img{
+    float: right;
+    margin-top: 0px;
+    margin-right: 180px;
+    height:200px;
+   
+}
+.home-text h5{
+    font-size: 18px;
+    color: #EF6D58;
+}
+.home-text h1{
+    font-size: 72px;
+    width:513px;
+    height: 240px;
+}
+.home-text p{
+    width: 470px;
+    height: 66px;
+    font-size: 18px;
+    margin-top: 16px;
+}
+.home-text button{
+    margin-top: 25px;
+    width:150px;
+    height:48px;
+    border: none;
+    border-radius: 15px;
+    color:#FFFFFF;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #EF6D58;
+    margin-right: 20px;
+}
+.home-metaInc{
+   display:flex;
+   margin-left: 120px;
+   margin-top: 535px;
+}
+.metaInc-text{
+    color:#FFFFFF;
+    font-size: 15px; 
+    padding-left: 20px; 
+    padding-top: 10px; 
+}
+
+                        /* About Us CSS start */
+.about{
+    background-color: rgba(253, 240, 233, 1);
+    padding-bottom: 100px;
+}
+.about-header{
+    margin-top:0px;
+    margin-left: 100px;
+}
+.about-header .Digital-1{
+    margin-top: 60px;
+}
+.about-header .Digital-2{
+    display: none;
+}
+hr{
+    margin-top: 50px;
+    margin-left: 100px;
+    border:1px solid rgba(243, 209, 191, 1);
+    width: 1170px;
+}
+.about-body{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.about-text{
+    margin-left: 150px;
+    font-family: Epilogue, sans-serif;
+}
+.about-text h5{
+    padding:15px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    font-size: 20px;
+    color:rgba(239, 109, 88, 1);
+}
+.about-text h2{
+    padding:15px;
+    font-size: 56px;
+    color:rgba(57, 20, 0, 1);
+}
+.about-text span{
+    padding:15px;
+    font-size: 20px;
+    font-style: bold;
+    color:rgba(57, 20, 0, 1);
+}
+.about-text p{
+    padding:15px;
+    font-size: 16px;
+    color:rgba(57, 20, 0, 0.64);
+}
+.about-text button{
+    margin: 20px;
+    width:138px;
+    height:48px;
+    border:none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    color:rgba(57, 20, 0, 1);
+    font-weight: 900;
+    font-size: 14px;
+    text-align: center;;
+}
+
+.rectangle-box{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 140px;
+    margin-left: 100px;
+}
+.rectangle{
+    width:280px;
+    height:80px;
+    border:1px solid rgba(243, 209, 191, 1);
+    padding:50px
+}
+.rectangle h3{
+    font-size:40px;
+    font-weight:800;
+    color: rgba(57, 20, 0, 1);
+}
+.rectangle p{
+    font-size: 20px;
+    color:rgba(57, 20, 0, 1);
+}    
+
+.work-step{
+    display: flex;
+    margin-left: 100px;
+}
+.work-text{
+    margin-right: 280px;
+}   
+.work-text h5{
+    padding:15px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color:rgba(239, 109, 88, 1);
+    font-family: Epilogue;
+}
+.work-text h3{
+    width: 448px;
+    height: 96px;
+    padding:10px;
+    font-size: 45px;
+    font-weight: 800;
+    color:rgba(57, 20, 0, 1);
+}
+
+.work-text p{
+    width: 470px;
+    height: 68px;
+    padding:15px;
+    font-size: 18px;
+    color:rgba(57, 20, 0, 0.64);
+}
+.work-text span{
+    padding-left:15px;
+    padding-top:50px;
+    font-size: 18px;
+    color:rgba(57, 20, 0, 1);
+}
+.step-box{
+    display: flex;
+}
+.step h1{   
+    font-size: 72px;
+    color:rgba(57, 20, 0, 1);
+    
+}
+.step h4{
+    font-family: Epilogue;
+    padding-left: 20px;
+    padding-top: 28px;
+    font-size: 24px;
+    color:rgba(57, 20, 0, 1);
+}
+.line{
+    margin:100px
+}
+
+                    /* Video */
+.video{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.video-container{
+    position: relative;
+}
+.video-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    display: block;
+}
+.video-play{
+    position: absolute;
+    top:50%;
+    left:50%;
+    width:50px;
+    height:50px;
+    transform: translate(-50%,-50%);
+    opacity: 0.8;
+}
+.video-duration{
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    color:#FFFFFF;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+.video-text{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-family: Epilogue;
+}
+.video-text h5{
+    font-size: 16px;
+    color:rgba(239, 109, 88, 1);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.video-text h3{
+    width: 450px;
+    padding: 10px;
+    padding: 10px;
+    font-size: 40px;
+    color:rgba(57, 20, 0, 1);
+}
+.video-text p{
+    width: 450px;
+    height: 70px;
+    padding: 10px;
+    font-size: 16px;
+    color:rgba(57, 20, 0, 0.64);
+}
+
+                    /* About Us css end  */
+    
+                    /* Portfolio CSS start */
+.Portfolio{
+    margin-top: 0px;
+    background-color: rgba(40, 41, 62, 1);
+}
+.Portfolio-container{
+    padding-top: 80px;
+    margin-left: 100px;
+    text-align: center;
+    font-family: Epilogue;
+}
+.Portfolio-container h5{
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color:rgba(239, 109, 88, 1);
+}
+.Portfolio-container h2{
+    font-size: 56px;
+    color:rgba(255, 255, 255, 1);
+    letter-spacing: -1px;
+    font-family: epilogue, sans-serif;
+}
+.Portfolio-container ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin:40px 0px;
+}
+.Portfolio-container ul li{
+    margin: 0 20px;
+    font-size: 16px;
+    color:rgba(255, 255, 255, 1);
+    font-family: Epilogue, sans-serif;
+}
+.showall{
+    display: none;
+}
+
+.portfolio-img{
+    display: flex;
+    margin-top: 50px;   
+}
+.portfolio-img2{
+    display: flex;
+    margin-top: 50px;   
+}
+.portfolio-box{
+    position: relative;
+}
+.portfolio-box img{
+    border-radius: 8px;
+    margin-right: 40px;
+}
+.portfolio-box p{
+    position: absolute;
+    top:250px;
+    left: 50px;
+    width: 80px;
+    height: 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 5px 10px;
+    color:rgba(57, 20, 0, 1);
+
+}
+.portfolio-box h3{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 1);
+    
+}
+.portfolio-btn{
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: 900;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    width: 170px;
+    color:rgba(255, 255, 255, 1);
+    background-color: rgba(40, 41, 62, 1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.getStarted{
+    background-color: rgba(253, 240, 233, 1);
+    width:1170px;
+    height: 336px;
+    display: flex;
+    position: relative;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    margin-top:180px;
+}
+.getStarted .icon{
+    position: absolute;
+    width:148px;
+    height:148px;
+    top:-70px;
+    left:80px;
+}
+.gs-text{
+    margin-left: 100px;
+    margin-top: 100px;
+    font-family: Epilogue, sans-serif;
+}
+.gs-text h5{
+    font-size: 16px;
+    letter-spacing: 3px;
+    padding:10px 0px;
+    text-transform: uppercase;
+    color:rgba(239, 109, 88, 1);
+}
+.gs-text h4{
+    padding:10px 0px;
+    font-size: 24px;
+    color:rgba(57, 20, 0, 1);
+}
+.gs-text button{
+    width:154px;
+    height:48px;
+    font-family: 14px;
+    font-weight: 900;
+    color:rgba(255, 255, 255, 1);
+    background-color:rgba(239, 109, 88, 1);
+    border-radius: 6px;
+    border: none;
+    padding:10px 0px;
+    margin: 20px 0px;;
+}
+.gs-img{
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.girl-box{
+    position: relative;
+}
+.girl-box .path{
+    position: relative;
+    top: 50px;
+}
+.girl-box .girl{
+    position: absolute;
+    top:-50px;
+    left:50px;
+}
+.ourteam{
+    margin-top: 20px;
+    margin-left: 100px;    
+}
+.ourteam h5{
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color:rgba(239, 109, 88, 1);
+}
+.ourteam h2{
+    font-size: 56px;
+    letter-spacing: -1px;
+    color:rgba(255, 255, 255, 1);
+}
+.ourteam .arrow{
+    position: relative;
+    left: 85%;
+    top:-80px;
+}
+.teamImg{
+    display: flex;
+    margin-top: 20px;
+}
+.img-box img{
+    width:196px;
+    height:247px;
+    border:1px solid rgba(255, 255, 255, 0.3);
+    margin-right:50px;
+    padding:25px;
+    padding-bottom: 0px;
+}
+.img-box h4{
+    font-size: 24px;
+    color:rgba(255, 255, 255, 1);
+    margin-top: 15px;
+}
+.img-box p{
+    font-size: 16px;
+    color:rgba(255, 255, 255, 0.64);
+    padding:10px;
+}
+.oval{
+    text-align: center;
+    padding-bottom:60px;
+    width: 100%;
+    margin-top: 80px;
+}
+.dot{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    display: inline-block;
+    margin: 0 5px;
+}
+.ring{
+    background-color: rgba(239, 109, 88, 1);
+}
+                    /* Portfolio CSS end */
+                    
+                    /* Pricing CSS Start  */
+.Pricing{
+    background-color: rgba(253, 240, 233, 1);
+    padding-top: 80px;
+    padding-left: 100px;
+    font-family: epilogue, sans-serif;
+}
+.Pricing-container h5{
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color:rgba(239, 109, 88, 1);
+}
+.Pricing-container h2{
+    font-size: 56px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    color:rgba(57, 20, 0, 1);
+}
+.Pricing-box{
+    display: flex;
+    position: relative;
+    margin-top: 80px;
+} 
+.Free{
+    width: 280px;
+    height: 400px;
+    border: 1px solid rgba(243, 209, 191, 1);
+    padding: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;;
+}
+.Free h3{
+    padding: 10px 0px;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgba(57, 20, 0, 1);
+}
+.Free p{
+    padding: 10px;
+    font-size: 16px;
+    color:rgba(57, 20, 0, 0.64);
+}
+.Free ul{
+    padding: 25px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.Free ul li{
+    padding: 10px 0px;
+    color:rgba(57, 20, 0, 0.64);
+    list-style: none;
+}
+.Free ul li img{
+    color:rgba(57, 20, 0, 1);
+    padding-right:15px;    
+}
+.Free-btn{
+    width:154px;
+    height:48px;
+    font-family: epilogue, sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    text-transform: uppercase;
+     border-radius: 20px;
+     border: none;
+     background-color: rgba(255, 255, 255, 1);
+    color:rgba(57, 20, 0, 1);
+    margin: 20px 0px;
+}
+.Popular{
+    width: 300px;
+    height: 475px;
+    position: absolute;
+    top:-40px;
+    left: 30%;
+    border: 1px solid rgba(243, 209, 191, 1);
+    padding: 35px 50px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-right: 50px;
+    margin-bottom: 50px;;
+}
+.Popular .pop{
+    width:80px;
+    height: 20px;
+    background-color: rgba(239, 109, 88, 1);
+    color:rgba(255, 255, 255, 1);
+    font-size: 16px;
+    text-align: center;
+    border-radius:20px ;
+    margin: 20px 0px;
+}
+.Popular h3{
+    padding: 10px 0px;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgba(57, 20, 0, 1);
+}
+.Popular  p{
+    padding: 10px;
+    font-size: 16px;
+    color:rgba(57, 20, 0, 0.64);
+}
+.Popular ul{
+    padding: 25px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.Popular  ul li{
+    padding: 10px 0px;
+    color:rgba(57, 20, 0, 0.64);
+    list-style: none;
+}
+.Popular ul li img{
+    color:rgba(57, 20, 0, 1);
+    padding-right:15px;    
+}
+.Popular-btn{
+    width:154px;
+    height:48px;
+    font-family: epilogue, sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    text-transform: uppercase;
+    color:rgba(57, 20, 0, 1);
+    background-color: rgba(239, 109, 88, 1);
+    border: none;
+    border-radius: 20px;
+    margin: 20px 0px;
+}
+.Design-code{
+    position: absolute;
+    left: 62%;
+    width: 280px;
+    height: 400px;
+    border: 1px solid rgba(243, 209, 191, 1);
+    padding: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;;
+}
+.Design-code h3{
+    padding: 10px 0px;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgba(57, 20, 0, 1);
+}
+.Design-code p{
+    padding: 10px;
+    font-size: 16px;
+    color:rgba(57, 20, 0, 0.64);
+}
+.Design-code ul{
+    padding: 25px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.Design-code ul li{
+    padding: 10px 0px;
+    color:rgba(57, 20, 0, 0.64);
+    list-style: none;
+}
+.Design-code ul li img{
+    color:rgba(57, 20, 0, 1);
+    padding-right:15px;    
+}
+.Design-btn{
+    width:154px;
+    height:48px;
+    font-family: epilogue, sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    text-transform: uppercase;
+     border-radius: 20px;
+     border: none;
+     background-color: rgba(255, 255, 255, 1);
+    color:rgba(57, 20, 0, 1);
+    margin: 20px 0px;
+}
+/* FAQ CSS */
+.FAQ{
+    margin-top:100px ;
+    margin-left: 50px;
+    padding-bottom: 100px;
+    display: flex;
+}
+.faq-text{
+    font-family: Epilogue, sans-serif;
+    margin-right: 200px;
+}
+.faq-text h5{
+    padding :10px 0px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color:rgba(239, 109, 88, 1);
+}
+.faq-text h3{
+    padding :10px 0px;
+    font-size: 40px;
+    font-weight: 800;
+    color:rgba(57, 20, 0, 1);
+}
+.faq-text p{
+    padding :10px 0px;
+    font-size: 16px;
+    color:rgba(57, 20, 0, 0.64);
+}
+.faq-text span{
+    padding :20px 0px;
+    font-size: 16px;
+    color:rgba(57, 20, 0, 1);
+}
+.faq-box ul{
+    padding: 20px 0px;
+    font-size: 16px;
+    list-style: none;
+    
+}
+.faq-box ul li{
+    background-color: rgba(253, 240, 233, 1);
+    padding: 20px ; 
+    display: flex;
+    border:1px solid rgba(243, 209, 191, 1);
+}
+.faq-box li .img{
+    position: absolute;
+    padding: 0px;
+    right: 150px;
+}
+ul li.first-list{
+    background-color: rgba(255, 255, 255, 1);
+    padding: 10px 0px;
+    color:rgba(57, 20, 0, 1);
+    font-weight: 600; 
+    position:relative; 
+}
+.first-list .text{
+    padding: 10px;
+    font-size: 16px;
+    
+}
+.first-list .text h4{
+    padding: 10px;
+    font-size: 24px;
+    color:rgba(57, 20, 0, 1);
+    font-weight: 700;
+}
+.first-list .text p{
+    padding: 20px;
+    color:rgba(57, 20, 0, 0.64);
+    font-size: 16px; 
+}
+.first-list img{
+    position: absolute;
+    padding: 20px;
+    left: 50px;
+}
+
+                     /* Map CSS */
+.map {
+  width:auto;
+  height: auto;   
+  object-fit: cover;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+.map .Touch{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    padding:1%;
+    border: none;
+    background-color: rgba(255, 255, 255, 1);  
+}
+.Touch h4{
+    margin-top: 5px;
+    font-size: 24px;
+    color:rgba(57, 20, 0, 1);
+    padding: 20px 20px;
+}
+.Touch input{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding:8px;
+    width:374px;
+    color:rgba(57, 20, 0, 0.64);
+    border:1px solid rgba(243, 209, 191, 1);
+}
+.map-box{
+    display: flex;
+    padding:10px;
+    border:1px solid rgba(243, 209, 191, 1);
+    margin: 20px 20px;
+    color:rgba(57, 20, 0, 0.64);
+}
+.map-box img{
+    width: 20px;
+    height:15px;
+    margin-left: 80%;
+}
+.Touch .Message{
+    padding:20px;
+    margin:20px;
+    height:90px;
+    color:rgba(57, 20, 0, 0.64);
+    border:2px solid rgba(243, 209, 191, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+.map-btn{
+    display: block;
+    margin: 20px;
+    padding:10px;
+    background-color: rgba(239, 109, 88, 1);
+    color:rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight:900;
+    border-radius: 15px;
+    border:none;
+    margin-left: 68%;
+}
+.map .pin{
+    position: absolute;
+    top:48%;
+    left: 70%;
+}
+                /* Footer CSS */
+.footer{
+    background-color: rgba(253, 240, 233, 1);
+    padding: 100px 100px;
+}
+.footer-box{
+    display: flex; 
+    font-family: epilogue;
+}
+.footer-box h4{
+    font-size: 24px;
+    color:rgba(57, 20, 0, 1);
+    margin-right: 25%;
+}
+.footer-box .Menu{
+    margin-right: 15%;
+}
+.footer-box .Menu h5{
+    font-size: 16px;
+    color:rgba(239, 109, 88, 1);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.footer-box .Menu ul{
+    list-style: none;
+    margin-top: 10px;
+}
+.footer-box .Menu ul li{
+    padding: 5px;
+    font-size: 16px;
+    color:rgba(57, 20, 0, 1);
+}
+.footer-box .Service{
+    margin-right: 26%;
+}
+.footer-box .Service h5{
+    font-size: 16px;
+    color:rgba(239, 109, 88, 1);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.footer-box .Service ul{
+    list-style: none;
+    margin-top: 10px;
+}
+.footer-box .Service ul li{
+    padding: 5px;
+    font-size: 16px;
+    color:rgba(57, 20, 0, 1);
+}
+.footer-line{
+    margin-left: -20px;
+}
+.copyright{
+    padding-top: 40px;
+    display: flex; 
+    color:rgba(57, 20, 0, 0.64);
+}
+.copyright .cp-1{
+    margin-right: 52%;
+}
+.copyright .cp-2{
+    margin-right: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+/* Media Query for Mobile Devices   */
+@media (max-width: 600px) 
+{
+                /* Header CSS Start */
+
+.main{
+    flex-direction: column;
+    height: 160vh;
+    margin: 0px;
+    overflow: hidden;
+    padding: 0px;
+}
+.navbar{
+    padding: 0px;
+    margin:0px;
+}
+.Logo{
+    width: 152px;
+    padding-top:16px;
+    padding-left:23px;
+    margin: 0px;
+}
+.navbar ul{
+    display: none;
+    padding: 0px;
+    margin: 0px;
+}
+.menu-img{
+    display: block;
+    width:48px;
+    height:48px;
+    margin-top: 16px;
+    margin-left: 100px;   
+}
+.btn{
+   display: none;
+}
+                     /* Home Start */
+.home{
+    position: relative;
+    margin-top: 60px;
+}
+.home-img img{
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    padding:0px;
+    width: 332px;
+    height:334px;
+    object-fit: cover; 
+   
+}
+.home-text{
+    float: left;
+    font-size: 20px;
+    margin-left: 23px;
+    margin-top: 444px;
+}
+
+.home-text h5{
+    font-size: 16px;
+}
+.home-text h1{
+    font-size: 56px;
+    width: 329px;
+    height: 256px;
+}
+.home-text p{
+    font-size: 16px;
+    margin-top: 16px;
+}
+.home-text button{
+    margin-top: 25px;
+    width:150px;
+    height:48px;
+    margin-right: 20px;
+}
+.home-metaInc{
+   position: absolute;
+   margin-left: 20px;
+   margin-top: 945px;
+}
+.metaInc-text{
+    font-size: 15px; 
+    width: 265px;
+    height: 64px;
+    padding-left: 20px; 
+    padding-top: 15px; ;
+}
+           
+                /* About Us CSS start */
+.about-header{
+    margin-top:0px;
+    margin-left: 10px;
+}
+.about-header .Digital-1 {
+    display: none;
+}
+.about-header img{
+    padding-top: 50px;
+}
+.about-header .Digital-2{
+    display: block;
+    width:   246px;
+    height: 175px;
+}
+hr{
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 329px;
+}
+.about-img img{
+    margin-top: 10px;
+    width: 329px;
+    height: 340px;
+}
+.about-body{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.about-text{
+    margin-left: 5px;
+    font-family: Epilogue, sans-serif;
+}
+.about-text h5{   
+    padding:5px; 
+    font-size: 16px;
+}
+.about-text h2{
+    padding:5px;
+    font-size: 40px;
+}
+.about-text span{
+    padding:5px;
+    font-size: 20px;
+}
+.about-text p{
+    padding:5px;
+    font-size: 16px;
+}
+.about-text button{
+    margin-top: 20px;
+    margin-left: 5px;
+    width:138px;
+    height:48px;
+    font-size: 14px;
+}
+
+.rectangle-box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-bottom: 80px;
+    margin-left: 15px;
+}
+.rectangle{
+    width:200px;
+    height:70px;
+    padding:50px
+}
+.rectangle h3{
+    font-size:40px;
+}
+.rectangle p{
+    font-size: 20px;
+}    
+
+.work-step{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.work-text{
+    margin-right: 280px;
+}   
+.work-text h5{
+    padding:15px;
+    font-size: 18px;
+}
+.work-text h3{
+    width: 329px;
+    height: 144px;
+    padding:10px;
+    font-size: 45px;
+}
+
+.work-text p{
+    width:329px;
+    height: 96px;
+    padding:15px;
+    font-size: 18px;
+}
+.work-text span{
+    padding-left:15px;
+    padding-top:50px;
+    font-size: 18px;
+}
+.step-box{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: flex;
+}
+.step h1{   
+    font-size: 72px;    
+}
+.step h4{
+    padding-left: 10px;
+    padding-top: 28px;
+    font-size: 24px;
+}
+.line{
+    margin:15px
+}
+                   /* Video */
+.video{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 5px;
+}
+.video-container{
+    position: relative;
+}
+.video-img{
+    width: 329px;
+    height: 212px;
+    border-radius: 20px;
+    display: block;
+}
+.video-text{
+    padding:0px;
+    margin: 0px;
+    padding-top: 40px;
+}
+.video-text h5{
+    padding: 5px;
+    font-size: 16px;
+    color:rgba(239, 109, 88, 1);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.video-text h3{
+    width: 329px;
+    height: 143px;
+    padding: 10px;
+}
+.video-text p{
+    width: 329px;
+    height: 99px;
+    padding: 10px;
+}
+                 /* Portfolio CSS start */
+.Portfolio{
+    margin-top: 0px;
+}
+.Portfolio-container{
+    padding-top: 75px;
+    margin-left: 10px;  
+}
+.Portfolio-container h5{
+    font-size: 16px;
+    width: 104px;
+    height: 32px;
+    margin-left: 100px;
+}
+.Portfolio-container h2{
+    font-size: 40px;
+    width: 251px;
+    height: 48px;
+    margin:10px 20px;
+    letter-spacing: 0px;
+    margin-left: 10%;
+}
+.Portfolio-container ul{
+    display: none;
+}
+.portfolio-text{
+    text-align: center;
+}
+.showall{
+    display: block;
+    width: 329px;
+    height: 40px;
+    margin: 20px;
+    padding-left: 5px;
+    background-color: rgba(255, 255, 255, 1);;
+}
+.showall span{
+    padding-right: 50px;
+    width: 64px;
+    height: 30px;
+    font-size: 25px;
+    color:rgba(57, 20, 0, 0.64);
+    text-align: left;
+}
+.showall img{
+    margin-left: 0px;
+    width: 10px;
+    height: 10px;
+}
+.portfolio-img{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;   
+}
+.portfolio-img2{
+    display: flex;
+    flex-direction: column;
+    margin-top:0px;   
+}
+.portfolio-box{
+    position: relative;
+}
+.portfolio-box img{
+    width: 360px;
+    height: 416px;
+    border-radius: 8px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+.portfolio-btn{
+    margin-top: 40px;
+    font-size: 14px;
+}
+.getStarted{
+    width:335px;
+    height: 832px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 25px;
+    margin-bottom: 100px;
+    margin-top:100px;
+    padding:0px;
+}
+.getStarted .icon{
+    position: absolute;
+    width:148px;
+    height:148px;
+    top:-70px;
+    left:35px;
+}
+.gs-text{
+    margin-left: 51px;
+    margin-top: 100px;
+}
+.gs-img{
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+.gs-img img{
+    width: 350px;
+    height: 230px;
+}
+.girl-box{
+    position: relative;
+}
+.girl-box .path{
+    width: 220px;
+    height: 190px;
+    position: relative;
+    top: 40px;
+    left: 28px;
+}
+.girl-box .girl{
+    width: 191px;
+    height: 317px;
+    position: absolute;
+    top:-35px;
+    left:80px;
+}
+.ourteam{
+    margin-top: 20px;
+    margin-left: 25px;    
+}
+.ourteam h2{
+    font-size: 40px;
+}
+.ourteam .arrow{
+    display: none;
+}
+.teamImg{
+    display: flex;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.img-box img{
+    width:196px;
+    height:247px;
+    margin-right:20px;
+    padding:25px;
+    padding-bottom: 0px;
+}
+.img-box h4{
+    font-size: 24px;
+    color:rgba(255, 255, 255, 1);
+    margin-top: 15px;
+}
+.img-box p{
+    font-size: 16px;
+    color:rgba(255, 255, 255, 0.64);
+    padding:10px;
+}
+.oval{
+    text-align: left;
+    margin-left: 100px;
+    padding-bottom:60px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+                   /* Pricing CSS Start  */
+.Pricing{
+    padding-top: 80px;
+    padding-left:20px;
+    align-items: center;
+
+}
+.Pricing-container h2{
+    font-size: 24px;
+    letter-spacing: 0px;
+}
+ .Pricing-box {
+    flex-direction: column;
+    position: static; 
+  }
+
+  .Free,
+  .Popular,
+  .Design-code{
+    position: static;
+    margin: 20px 0;
+    width: 80%; 
+    height: auto; 
+  }
+  .Free {
+    padding: 20px;
+  }
+  .Popular {
+    padding: 20px;
+  }
+
+  .Design-code {
+    padding: 20px;
+  }
+/* FAQ CSS */
+.FAQ{
+    margin-top:100px ;
+    margin-left: 10px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.faq-text{
+    margin-right: 20px;
+}
+.faq-text h3{
+    padding :10px 0px;
+    font-size: 24px;
+}
+.faq-text p{
+    padding :10px 0px;
+    font-size: 16px;
+}
+.faq-text span{
+    padding :20px 0px;
+    font-size: 16px;
+}
+.faq-box ul{
+    padding: 10px 0px;
+    font-size: 16px;
+    width: 329px;
+}
+.faq-box ul li{
+    background-color: rgba(253, 240, 233, 1);
+    padding: 20px ; 
+    display: flex;
+    border:1px solid rgba(243, 209, 191, 1);
+}
+.faq-box li .img{
+    position: absolute;
+    padding: 0px;
+    right: 5%;
+}
+.faq-box .first-list{
+    width: 285px;
+    height: 180px;
+    position:relative; 
+}
+.first-list .text{
+    margin: 0px;
+    padding: 0px;
+}
+.first-list .text h4{
+    padding: 1px;
+    font-size: 16px;
+    
+}
+.first-list .text p{
+    padding: 2px;
+    font-size: 14px;
+}
+
+.first-list img{
+    position: absolute;
+    padding: 0px;
+    left: 20%;
+    margin-left: -30px;
+}
+                 /* Map CSS */
+.map {
+  width:auto;
+  height: auto;   
+  object-fit: cover;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+.map .Touch{
+    position: absolute;
+    top: 5%;
+    left: 2.5%;
+    padding:1%;
+    width: 329px;
+    border: none;
+}
+.Touch h4{
+    margin-top: 5px;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+.Touch input{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding:8px;
+}
+.map-box{
+    display: flex;
+    padding:10px;
+    margin: 20px 20px;
+}
+.map-box img{
+    width: 20px;
+    height:15px;
+margin-left: 70%;    
+    margin-bottom: -10%;
+}
+.Touch .Message{
+    padding:20px;
+    margin:20px;
+    height:90px;
+    color:rgba(57, 20, 0, 0.64);
+    border:2px solid rgba(243, 209, 191, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+.map-btn{
+    display: block;
+    margin: 20px;
+    padding:10px;
+    background-color: rgba(239, 109, 88, 1);
+    color:rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight:900;
+    border-radius: 15px;
+    border:none;
+    margin-left: 68%;
+}
+.map .pin{
+    position: absolute;
+    top:80%;
+    left: 60%;
+}
+                /* Footer CSS */
+.footer{
+    padding: 20px 10px;
+}
+.footer-box{
+    align-items: center;
+    display: flex; 
+    flex-direction: column;
+    margin: 10px 20px;
+}
+.footer-box h4{
+    font-size: 24px;
+    margin: 12% 8%;
+}
+.footer-box .Menu{
+    margin: 2% 10%;
+}
+
+.footer-box .Service{
+   margin: 5% 8%;
+}
+
+.footer-line{
+    margin-left: 8px;
+}
+.copyright{
+    padding-top: 40px;
+    display: flex;
+    flex-direction:column;
+     align-items: center; 
+}
+.copyright .cp-1{
+    align-items: left;
+    margin: 5%;
+}
+.copyright p{
+    align-items: right;
+    display: flex;
+    flex-direction:row;
+    margin-left: 5%;
+}
+
+}
+                /* Media Query for Mobile Devices End */
+
