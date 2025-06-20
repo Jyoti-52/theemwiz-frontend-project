@@ -943,7 +943,7 @@ ul li.first-list{
 
 .main{
     flex-direction: column;
-    height: 170vh;
+/*     height: 170vh; */
     margin: 0px;
     overflow: hidden;
     padding: 0px;
@@ -968,7 +968,7 @@ ul li.first-list{
     width:48px;
     height:48px;
     margin-top: 16px;
-    margin-left: 110px;   
+    margin-left: 120px;   
 }
 .btn{
    display: none;
