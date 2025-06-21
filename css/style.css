@@ -968,7 +968,7 @@ ul li.first-list{
     width:48px;
     height:48px;
     margin-top: 16px;
-    margin-left: 120px;   
+    margin-left: 130px;   
 }
 .btn{
    display: none;
@@ -980,7 +980,7 @@ ul li.first-list{
 }
 .home-img img{
     position: absolute;
-    top: 60px;
+    top: 50px;
     left: 10px;
     padding:0px;
     width: 332px;
@@ -992,7 +992,7 @@ ul li.first-list{
     float: left;
     font-size: 20px;
     margin-left: 23px;
-    margin-top: 442px;
+    margin-top: 440px;
 }
 
 .home-text h5{
