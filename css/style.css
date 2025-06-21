@@ -968,19 +968,20 @@ ul li.first-list{
     width:48px;
     height:48px;
     margin-top: 16px;
-    margin-left: 130px;   
+    margin-left: 140px;   
 }
 .btn{
    display: none;
 }
                      /* Home Start */
 .home{
+    
     position: relative;
     margin-top: 60px;
 }
 .home-img img{
     position: absolute;
-    top: 50px;
+    top: 40px;
     left: 10px;
     padding:0px;
     width: 332px;
@@ -1014,7 +1015,7 @@ ul li.first-list{
     margin-right: 20px;
 }
 .home-metaInc{
-   position: absolute;
+/*    position: absolute; */
    top:310px;
    margin-left: 20px;
    margin-top: 945px;
