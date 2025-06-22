@@ -1031,7 +1031,7 @@ ul li.first-list{
                 /* About Us CSS start */
 .about-header{
     margin-top:0px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .about-header .Digital-1 {
     display: none;
@@ -1058,7 +1058,7 @@ hr{
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 .about-text{
     margin-left: 5px;
