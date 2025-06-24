@@ -943,7 +943,7 @@ ul li.first-list{
 
 .main{
     flex-direction: column;
-    height: 180vh;
+    height: 172vh;
     margin: 0px;
     overflow: hidden;
     padding: 0px;
@@ -968,7 +968,7 @@ ul li.first-list{
     width:48px;
     height:48px;
     margin-top: 16px;
-    margin-left: 135px;   
+    margin-left: 130px;   
 }
 .btn{
    display: none;
@@ -1017,7 +1017,7 @@ ul li.first-list{
     margin-right: 20px;
 }
 .home-metaInc{
-/*    position: absolute; */
+   position: absolute;
    top:310px;
    margin-left: 20px;
    margin-top: 945px;
