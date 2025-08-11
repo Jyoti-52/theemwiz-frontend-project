@@ -941,62 +941,63 @@ ul li.first-list{
 {
                 /* Header CSS Start */
 
- .main {
+  /* Header */
+    .main {
         flex-direction: column;
-        height: auto; /* Let content define height */
+        height: auto; /* Let it adjust instead of fixed vh */
         margin: 0;
+        overflow-x: hidden; /* Remove horizontal scroll */
         padding: 0;
-        overflow: hidden;
     }
-
-    /* Navbar */
+    .navbar {
+        padding: 0;
+        margin: 0;
+    }
     .Logo {
         width: 152px;
         padding-top: 16px;
-        padding-left: 20px;
+        padding-left: 23px;
         margin: 0;
     }
     .navbar ul {
-        display: none; /* Hide menu list on mobile */
+        display: none;
+        padding: 0;
+        margin: 0;
     }
     .menu-img {
         display: block;
-        width: 40px;
-        height: 40px;
+        width: 48px;
+        height: 48px;
         margin-top: 16px;
-        margin-left: auto; /* Push to right */
+        margin-left: auto;  /* Push to right */
         margin-right: 20px;
     }
     .btn {
-        display: none; /* Hide desktop button */
+        display: none;
     }
 
-    /* Home Section */
+    /* Home */
     .home {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 40px;
-        padding: 0 15px;
-    }
-    .home-img {
-        float: none;
-        margin: 0;
-        width: 100%;
-        text-align: center;
+        position: relative;
+        margin-top: 60px;
     }
     .home-img img {
-        width: 100%;
-        max-width: 350px;
+        position: relative; /* Removed absolute for overflow fix */
+        display: block;
+        margin: 0 auto; /* Center image */
+        padding: 0;
+        width: 90%; /* Prevents overflow */
+        max-width: 332px;
         height: auto;
         object-fit: cover;
     }
     .home-text {
-        float: none;
-        margin: 20px 0 0 0;
-        font-size: 18px;
-        text-align: center;
-        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px; /* Reduced from 440px to remove big gap */
     }
     .home-text h5 {
         font-size: 16px;
@@ -1009,29 +1010,25 @@ ul li.first-list{
     }
     .home-text p {
         font-size: 16px;
-        width: 100%;
-        height: auto;
-        margin-top: 10px;
     }
     .home-text button {
-        margin-top: 20px;
+        margin-top: 25px;
         width: 150px;
         height: 48px;
+        margin-right: 20px;
     }
 
-    /* MetaInc section */
+    /* MetaInc */
     .home-metaInc {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 30px 0 0 0;
+        position: relative; /* No absolute to prevent overflow */
+        margin: 20px auto 0 auto; /* Centered */
     }
     .metaInc-text {
-        font-size: 14px;
-        width: 100%;
-        max-width: 300px;
-        text-align: center;
-        padding: 10px;
+        font-size: 15px;
+        width: 90%;
+        max-width: 265px;
+        height: auto;
+        padding: 15px 20px;
     }
 /* .main{
     flex-direction: column;
@@ -1654,6 +1651,7 @@ margin-left: 70%;
 
 }
                 /* Media Query for Mobile Devices End */
+
 
 
 
