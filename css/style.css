@@ -941,7 +941,99 @@ ul li.first-list{
 {
                 /* Header CSS Start */
 
-.main{
+ .main {
+        flex-direction: column;
+        height: auto; /* Let content define height */
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    /* Navbar */
+    .Logo {
+        width: 152px;
+        padding-top: 16px;
+        padding-left: 20px;
+        margin: 0;
+    }
+    .navbar ul {
+        display: none; /* Hide menu list on mobile */
+    }
+    .menu-img {
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin-top: 16px;
+        margin-left: auto; /* Push to right */
+        margin-right: 20px;
+    }
+    .btn {
+        display: none; /* Hide desktop button */
+    }
+
+    /* Home Section */
+    .home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+        padding: 0 15px;
+    }
+    .home-img {
+        float: none;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .home-img img {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        object-fit: cover;
+    }
+    .home-text {
+        float: none;
+        margin: 20px 0 0 0;
+        font-size: 18px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .home-text h5 {
+        font-size: 16px;
+    }
+    .home-text h1 {
+        font-size: 40px;
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .home-text p {
+        font-size: 16px;
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+    .home-text button {
+        margin-top: 20px;
+        width: 150px;
+        height: 48px;
+    }
+
+    /* MetaInc section */
+    .home-metaInc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px 0 0 0;
+    }
+    .metaInc-text {
+        font-size: 14px;
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+        padding: 10px;
+    }
+/* .main{
     flex-direction: column;
     height: 172vh;
     margin: 0px;
@@ -974,7 +1066,7 @@ ul li.first-list{
    display: none;
 }
                      /* Home Start */
-/* .home{
+.home{
     
     position: relative;
     margin-top: 60px;
@@ -1027,68 +1119,10 @@ ul li.first-list{
     width: 265px;
     height: 64px;
     padding-left: 20px; 
-    padding-top: 15px; ;
-} */
-
- .home {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 20px;
-        padding: 10px;
-        position: relative;
-    }
-
-    .home-img img {
-        width: 100%;
-        height: auto;
-        position: static; /* No absolute positioning */
-        object-fit: cover;
-    }
-
-    .home-text {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        margin-top: 20px;
-        margin-left: 0;
-    }
-
-    .home-text h5 {
-        font-size: 14px;
-    }
-
-    .home-text h1 {
-        font-size: 32px;
-        width: 100%;
-        height: auto;
-        margin-bottom: 10px;
-    }
-
-    .home-text p {
-        font-size: 14px;
-    }
-
-    .home-text button {
-        margin-top: 15px;
-        width: 140px;
-        height: 44px;
-    }
-
-    .home-metaInc {
-        position: static; /* Let it flow naturally */
-        margin-top: 20px;
-        margin-left: 0;
-    }
-
-    .metaInc-text {
-        font-size: 14px;
-        width: 100%;
-        padding: 10px;
-        text-align: center;
-    }
-           
+    padding-top: 15px; 
+}
+ */
+ 
                 /* About Us CSS start */
 .about-header{
     margin-top:0px;
@@ -1620,5 +1654,6 @@ margin-left: 70%;
 
 }
                 /* Media Query for Mobile Devices End */
+
 
 
