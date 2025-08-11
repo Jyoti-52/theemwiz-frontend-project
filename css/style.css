@@ -942,95 +942,8 @@ ul li.first-list{
                 /* Header CSS Start */
 
   /* Header */
-    .main {
-        flex-direction: column;
-        height: auto; /* Let it adjust instead of fixed vh */
-        margin: 0;
-        overflow-x: hidden; /* Remove horizontal scroll */
-        padding: 0;
-    }
-    .navbar {
-        padding: 0;
-        margin: 0;
-    }
-    .Logo {
-        width: 152px;
-        padding-top: 16px;
-        padding-left: 23px;
-        margin: 0;
-    }
-    .navbar ul {
-        display: none;
-        padding: 0;
-        margin: 0;
-    }
-    .menu-img {
-        display: block;
-        width: 48px;
-        height: 48px;
-        margin-top: 16px;
-        margin-left: auto;  /* Push to right */
-        margin-right: 20px;
-    }
-    .btn {
-        display: none;
-    }
-
-    /* Home */
-    .home {
-        position: relative;
-        margin-top: 60px;
-    }
-    .home-img img {
-        position: relative; /* Removed absolute for overflow fix */
-        display: block;
-        margin: 0 auto; /* Center image */
-        padding: 0;
-        width: 90%; /* Prevents overflow */
-        max-width: 332px;
-        height: auto;
-        object-fit: cover;
-    }
-    .home-text {
-        display: flex;
-        flex-direction: column;
-        font-size: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top: 20px; /* Reduced from 440px to remove big gap */
-    }
-    .home-text h5 {
-        font-size: 16px;
-    }
-    .home-text h1 {
-        font-size: 40px;
-        width: 100%;
-        height: auto;
-        margin-bottom: 10px;
-    }
-    .home-text p {
-        font-size: 16px;
-    }
-    .home-text button {
-        margin-top: 25px;
-        width: 150px;
-        height: 48px;
-        margin-right: 20px;
-    }
-
-    /* MetaInc */
-    .home-metaInc {
-        position: relative; /* No absolute to prevent overflow */
-        margin: 20px auto 0 auto; /* Centered */
-    }
-    .metaInc-text {
-        font-size: 15px;
-        width: 90%;
-        max-width: 265px;
-        height: auto;
-        padding: 15px 20px;
-    }
-/* .main{
+ 
+.main{
     flex-direction: column;
     height: 172vh;
     margin: 0px;
@@ -1118,7 +1031,13 @@ ul li.first-list{
     padding-left: 20px; 
     padding-top: 15px; 
 }
- */
+.home-metaInc {
+        position: relative;
+        top: auto;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+ 
  
                 /* About Us CSS start */
 .about-header{
@@ -1651,6 +1570,7 @@ margin-left: 70%;
 
 }
                 /* Media Query for Mobile Devices End */
+
 
 
 
