@@ -1018,7 +1018,7 @@ ul li.first-list{
     height:48px;
     margin-right: 20px;
 }
-.home-metaInc{
+/* .home-metaInc{
    position: absolute;
    top:310px;
    margin-left: 20px;
@@ -1037,7 +1037,22 @@ ul li.first-list{
         margin-top: 20px;
         margin-left: 20px;
     }
- 
+  */
+      .home-metaInc {
+        position: relative; /* Remove absolute positioning */
+        top: auto;
+        margin-left: 0;
+        margin-top: 20px; /* Just small gap */
+        display: flex;
+        align-items: center;
+    }
+
+    .metaInc-text {
+        font-size: 14px;
+        width: auto;
+        height: auto;
+        padding-left: 10px;
+    }
  
                 /* About Us CSS start */
 .about-header{
@@ -1570,6 +1585,7 @@ margin-left: 70%;
 
 }
                 /* Media Query for Mobile Devices End */
+
 
 
 
