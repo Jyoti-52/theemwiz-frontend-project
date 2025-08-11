@@ -945,7 +945,8 @@ ul li.first-list{
  
 .main{
     flex-direction: column;
-    height: 172vh;
+/*     height: 172vh; */
+     height: auto;
     margin: 0px;
     overflow: hidden;
     padding: 0px;
@@ -980,6 +981,7 @@ ul li.first-list{
     
     position: relative;
     margin-top: 60px;
+    height: auto;
 }
 .home-img img{
     position: absolute;
@@ -1038,11 +1040,10 @@ ul li.first-list{
         margin-left: 20px;
     }
   */
-      .home-metaInc {
-        position: relative; /* Remove absolute positioning */
-        top: auto;
+   .home-metaInc {
+        position: relative;
         margin-left: 0;
-        margin-top: 20px; /* Just small gap */
+        margin-top: 20px; /* Small gap */
         display: flex;
         align-items: center;
     }
@@ -1585,6 +1586,7 @@ margin-left: 70%;
 
 }
                 /* Media Query for Mobile Devices End */
+
 
 
 
